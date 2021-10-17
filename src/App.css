@@ -1,5 +1,6 @@
 body{
-  background-color: #282c34;
+  background-color: #436b95;
+  color: white;
 }
 
 .App {
@@ -15,8 +16,27 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+}
+
+.logo-text {
+  animation-name: glow;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .App-link {
   color: #61dafb;
 }
+
+@keyframes glow {
+  0%{
+    text-shadow: 0 0 10px whitesmoke;
+  }
+
+  100% {
+    text-shadow: 0 0 0px white;
+  }
+}
+
