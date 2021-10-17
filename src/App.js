@@ -1,12 +1,14 @@
-import './App.css';
-import Table from './components/table.js'
+import "./App.css";
+import Search from "./components/Search.js";
+import Table from "./components/Table.js";
+import LogoHeader from "./components/LogoHeader.js";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p class="logo-text">z e n s h a r k</p>
-      </header>
-    <Table></Table>
+      <LogoHeader />
+      <Search />
+      <Table />
     </div>
   );
 }

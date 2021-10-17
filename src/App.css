@@ -20,10 +20,13 @@ body{
 }
 
 .logo-text {
+  pointer-events: none;
   animation-name: glow;
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
 }
 
 .App-link {
@@ -32,11 +35,11 @@ body{
 
 @keyframes glow {
   0%{
-    text-shadow: 0 0 10px whitesmoke;
+    text-shadow: 0 0 2px white;
   }
 
   100% {
-    text-shadow: 0 0 0px white;
+    text-shadow: 0 0 15px whitesmoke;
   }
 }
 
