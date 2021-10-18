@@ -6,8 +6,10 @@ class Search extends React.Component {
       <div>
         <label for="find-game">Find a game: </label>
         <input type="text" id="find-game"></input>
+        <button>Add to List</button>
       </div>
     );
   }
+
 }
 export default Search;
