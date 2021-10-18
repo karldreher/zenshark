@@ -1,6 +1,22 @@
+
+@keyframes glow {
+  0%{
+    text-shadow: 0 0 2px white;
+  }
+
+  100% {
+    text-shadow: 0 0 15px whitesmoke;
+  }
+}
+
+
 body{
   background-color: #436b95;
   color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .App {
@@ -33,13 +49,12 @@ body{
   color: #61dafb;
 }
 
-@keyframes glow {
-  0%{
-    text-shadow: 0 0 2px white;
-  }
-
-  100% {
-    text-shadow: 0 0 15px whitesmoke;
-  }
+#table{
+  width: 100%;
 }
 
+.close-button{
+  color: red;
+  font-weight: bolder;
+  float: right 20px;
+}
